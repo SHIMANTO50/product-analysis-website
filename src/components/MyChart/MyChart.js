@@ -1,7 +1,7 @@
 import React from 'react';
 import { Bar, BarChart, CartesianGrid, Legend, Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
 
-const MyLineChart = () => {
+const MyChart = () => {
     const data = [
         {
             "month": "Mar",
@@ -72,4 +72,4 @@ const MyLineChart = () => {
     );
 };
 
-export default MyLineChart;
+export default MyChart;

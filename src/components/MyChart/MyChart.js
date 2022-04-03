@@ -1,5 +1,5 @@
 import React from 'react';
-import { Bar, BarChart, CartesianGrid, Legend, Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
+import { Area, Bar, BarChart, CartesianGrid, ComposedChart, Legend, Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
 
 const MyChart = () => {
     const data = [
@@ -66,6 +66,20 @@ const MyChart = () => {
                     <Bar dataKey="sell" fill="#82ca9d" />
                     <Bar dataKey="revenue" fill="red" />
                 </BarChart>
+            </div>
+
+            <div>
+                <h1 className='text-center text-2xl font-bold mt-5'>ComposedChart</h1>
+                <ComposedChart width={730} height={250} data={data}>
+                    <XAxis dataKey="month" />
+                    <YAxis />
+                    <Tooltip />
+                    <Legend />
+                    <CartesianGrid stroke="#f5f5f5" />
+                    <Area type="monotone" dataKey="investment" fill="#8884d8" stroke="#8884d8" />
+                    <Bar dataKey="revenue" barSize={20} fill="#413ea0" />
+                    <Line type="monotone" dataKey="sell" stroke="#ff7300" />
+                </ComposedChart>
             </div>
         </div>
 

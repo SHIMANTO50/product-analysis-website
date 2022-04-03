@@ -1,5 +1,5 @@
 import React from 'react';
-import { Area, Bar, BarChart, CartesianGrid, ComposedChart, Legend, Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
+import { Area, AreaChart, Bar, BarChart, CartesianGrid, ComposedChart, Legend, Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
 
 const MyChart = () => {
     const data = [
@@ -80,6 +80,23 @@ const MyChart = () => {
                     <Bar dataKey="revenue" barSize={20} fill="#413ea0" />
                     <Line type="monotone" dataKey="sell" stroke="#ff7300" />
                 </ComposedChart>
+            </div>
+
+            <div>
+                <h1 className='text-center text-2xl font-bold mt-5'>AreaChart</h1>
+                <AreaChart
+                    width={730}
+                    height={250}
+                    data={data}
+                    margin={{
+                        top: 20, right: 20, bottom: 20, left: 20,
+                    }}
+                >
+                    <XAxis dataKey="month" />
+                    <YAxis />
+                    <Area dataKey="investment" stroke="#8884d8" fill="#8884d8" />
+                    <Tooltip />
+                </AreaChart>
             </div>
         </div>
 

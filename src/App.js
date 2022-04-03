@@ -5,6 +5,7 @@ import Header from './components/Header/Header';
 import { Route, Routes } from 'react-router-dom';
 import Home from './components/Home/Home';
 import MyChart from './components/MyChart/MyChart';
+import NotFound from './components/NotFound/NotFound';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />}></Route>
         <Route path='/dashboard' element={<MyChart />}></Route>
+        <Route path='*' element={<NotFound />} />
       </Routes>
     </div>
   );

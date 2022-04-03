@@ -1,7 +1,14 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import img1 from '../../images/hp-1.jpg';
+import ReviewCard from '../ReviewCard/ReviewCard';
 
 const Home = () => {
+    const [reviews, setReviews] = useState([]);
+    useEffect(() => {
+        fetch('hp.json')
+            .then(res => res.json())
+            .then(data => setReviews(data))
+    }, [])
     return (
         <div>
             <div className='grid grid-cols-1 md:grid-cols-2'>
@@ -14,6 +21,16 @@ const Home = () => {
 
                 <div>
                     <img src={img1} alt="" />
+                </div>
+
+            </div>
+
+            <div>
+                <h1 className='text-center text-5xl mt-10 text-bold'>Customer Review</h1>
+                <div className='grid grid-cols-3'>
+                    {
+                        reviews.map(reviewbyone => <ReviewCard key={reviewbyone.id} reviewbyone={reviewbyone}></ReviewCard>)
+                    }
                 </div>
             </div>
 

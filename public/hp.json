@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "HP-1",
+        "review": "Laptop is outstanding.I can do my work properly.Sound quality good",
+        "rating": 5
+    },
+    {
+        "id": 2,
+        "name": "HP-2",
+        "review": "Laptop is outstanding.I can do my work properly.Sound quality good",
+        "rating": 5
+    },
+    {
+        "id": 3,
+        "name": "HP-3",
+        "review": "Laptop is outstanding.I can do my work properly.Sound quality good",
+        "rating": 5.0
+    },
+    {
+        "id": 4,
+        "name": "HP-4",
+        "review": "Laptop is outstanding.I can do my work properly.Sound quality good",
+        "rating": 5.0
+    },
+    {
+        "id": 5,
+        "name": "HP-5",
+        "review": "Laptop is outstanding.I can do my work properly.Sound quality good",
+        "rating": 5
+    },
+    {
+        "id": 6,
+        "name": "HP-6",
+        "review": "Laptop is outstanding.I can do my work properly.Sound quality good",
+        "rating": 5
+    }
+]

@@ -30,7 +30,7 @@ const Home = () => {
                 <h1 className='text-center text-5xl mt-10 text-bold'>Customer Review</h1>
                 <div className='grid grid-cols-1 md:grid-cols-3 mt-8 gap-4 ml-10'>
                     {
-                        reviews.map(reviewbyone => <ReviewCard key={reviewbyone.id} reviewbyone={reviewbyone}></ReviewCard>)
+                        reviews.slice(0, 3).map(reviewbyone => <ReviewCard key={reviewbyone.id} reviewbyone={reviewbyone}></ReviewCard>)
                     }
                 </div>
             </div>

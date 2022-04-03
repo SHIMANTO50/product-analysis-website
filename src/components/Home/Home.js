@@ -28,14 +28,14 @@ const Home = () => {
 
             <div>
                 <h1 className='text-center text-5xl mt-10 text-bold'>Customer Review</h1>
-                <div className='grid grid-cols-3 mt-8 gap-4 ml-10'>
+                <div className='grid grid-cols-1 md:grid-cols-3 mt-8 gap-4 ml-10'>
                     {
                         reviews.map(reviewbyone => <ReviewCard key={reviewbyone.id} reviewbyone={reviewbyone}></ReviewCard>)
                     }
                 </div>
             </div>
 
-            <Link to='/reviews'><p className='text-center text-2xl text-bold bg-blue-300 w-min ml-[616px] mb-5 px-20 mt-5'>See All reviews</p></Link>
+            <Link to='/reviews'><p className='text-center text-2xl text-bold bg-blue-300 w-min md:ml-[616px] mb-5 px-20 mt-5'>See All reviews</p></Link>
 
         </div>
     );

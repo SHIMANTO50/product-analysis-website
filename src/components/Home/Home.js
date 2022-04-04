@@ -1,15 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import img1 from '../../images/hp-1.jpg';
+import useReview from '../hooks/useReview';
 import ReviewCard from '../ReviewCard/ReviewCard';
 
 const Home = () => {
-    const [reviews, setReviews] = useState([]);
-    useEffect(() => {
-        fetch('hp.json')
-            .then(res => res.json())
-            .then(data => setReviews(data))
-    }, [])
+    const [reviews, setReviews] = useReview();
     return (
         <div>
             <div className='grid grid-cols-1 md:grid-cols-2'>

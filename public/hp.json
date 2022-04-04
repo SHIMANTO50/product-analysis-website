@@ -3,36 +3,42 @@
         "id": 1,
         "name": "Tanjimul",
         "review": "HP's new Victus 16 is a good budget gaming laptop, but it commits the sin that the best in its class avoid—its cost-cutting design pokes through in several key ways.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp0xKoXUryp0JZ1Sxp-99eQiQcFrmA1M1qbQ&usqp=CAU",
         "rating": 5
     },
     {
         "id": 2,
         "name": "Karim",
         "review": "The HP Chromebook 11a is a bargain Chromebook with appeal for casual internet surfers and money-strapped students, but its uncomfortable touchpad makes browsing a chore.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp0xKoXUryp0JZ1Sxp-99eQiQcFrmA1M1qbQ&usqp=CAU",
         "rating": 4.9
     },
     {
         "id": 3,
         "name": "Rahim",
         "review": "HP's ZBook Studio G8 outshines the ZBook Firefly and challenges the ZBook Fury as the top all-rounder in the company's workstation lineup.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp0xKoXUryp0JZ1Sxp-99eQiQcFrmA1M1qbQ&usqp=CAU",
         "rating": 5
     },
     {
         "id": 4,
         "name": "Hasan",
         "review": "The HP Chromebook x360 14a is a value-priced convertible kept from greatness by a dim display, poor speakers, and inconsistent trackpad.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp0xKoXUryp0JZ1Sxp-99eQiQcFrmA1M1qbQ&usqp=CAU",
         "rating": 5
     },
     {
         "id": 5,
         "name": "Shimanto",
         "review": "HP's premier laptop workstation, the ZBook Fury 15 G8 with DreamColor screen is a gorgeous choice for design pros who can afford it.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp0xKoXUryp0JZ1Sxp-99eQiQcFrmA1M1qbQ&usqp=CAU",
         "rating": 4.9
     },
     {
         "id": 6,
         "name": "Kamal",
         "review": "The HP Stream 14 might be a good match for students on a very strict budget, but don't expect to use this laptop for anything outside of basic schoolwork or the least demanding of everyday tasks.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp0xKoXUryp0JZ1Sxp-99eQiQcFrmA1M1qbQ&usqp=CAU",
         "rating": 4.8
     }
 ]
